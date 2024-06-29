@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #DFF0D8; /* Light green background */
+    margin-top: 0px;
+    margin-bottom:20px
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.image {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .section {
+        flex-direction: column;
+    }
+
+    .image {
+        order: -1; /* This will make the image appear above the text */
+    }
+
+    .header_1{
+        padding: 10px;
+    }
+
+    
+}
+
+
+.header{
+    text-align: center;
+    background-color: white ; /* Dark green background */
+    color: #4CAF50;
+    padding: 10px;
+}
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-weight: 200;
+    font-size: larger;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+}
+#titk {
+    margin-top: 20px ;
+    margin-bottom: 5px;
+}
+
+.header_1{
+    
+    text-align: center;
+    background-color:#4CAF50; /* Dark green background */
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.section_Name {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #DFF0D8; /* Light green background */
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#icon {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: aliceblue;
+}
+
+footer {
+    text-align: center;
+    background-color: #4CAF50; /* Dark green background */
+    color: white;
+    padding: 10px;
+}
